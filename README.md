@@ -111,7 +111,7 @@ eg:
 如
 ```objectivec
 [OptimizeCrash startOptimizeCrashIsPrintLogs:YES isListeningMethod:YES Block:^(OptimizeCrashResult*optimizeCrashResult) {
-
+		//可在此处进行crash数据收集,发送到自己的服务器上
         NSLog(@"回调的数据%@",optimizeCrashResult.errorReason);
     }];
 ```
@@ -139,4 +139,4 @@ eg:
 @property(nonatomic, strong) NSException *exception;
 ```
 
->ps:建议正式环境下开启,可优先防止APP异常退出,如果开发环境下开启,遇到异常时只会在控制台输出异常信息,不会造成程序退出,不容易及时发现问题.
+>ps:建议正式环境下开启,可有效防止APP异常退出,如果开发环境下开启,遇到异常时只会在控制台输出异常信息,不会造成程序退出,不容易及时发现问题.
