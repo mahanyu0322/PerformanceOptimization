@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "PerformanceOptimization"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "This is an open source framework that monitors crashes and skips APP exit and monitor interface freezes"
 
   spec.homepage     = "https://github.com/mahongliang0322/PerformanceOptimization"
