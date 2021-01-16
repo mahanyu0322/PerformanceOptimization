@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/mahongliang0322/PerformanceOptimization.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "PerformanceOptimization/DetectionCaton/*.{h,m}","PerformanceOptimization/OptimizeCrash/*.{h,m}"
+  spec.source_files  = "PerformanceOptimization/**/*.{h,m}"
   
   spec.platform     = :ios, "8.0"
   
