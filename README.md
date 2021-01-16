@@ -16,3 +16,51 @@
 	* removeObjectAtIndex:
 	* insertObject:atIndex:
 	* getObjects:range:
+* NSDictionary
+	* dictionaryWithObjects:forKeys:count:
+* NSMutableDictionary
+	* setObject:forKey:
+	* setObject:forKeyedSubscript:
+	* removeObjectForKey:
+* NSString
+	* characterAtIndex:
+	* substringFromIndex:
+	* substringToIndex:
+	* substringWithRange:
+	* stringByReplacingOccurrencesOfString:withString:
+	* stringByReplacingOccurrencesOfString:withString:options:range:
+	* stringByReplacingCharactersInRange:withString:
+	* stringByAppendingString:
+* NSPathStore2
+	* stringByAppendingString:
+* NSMutableString
+	* replaceCharactersInRange:withString:
+	* insertString:atIndex:
+	* deleteCharactersInRange:
+* NSAttributedString
+	* initWithString:
+	* initWithAttributedString:
+	* initWithString:attributes:
+* NSMutableAttributedString
+	* initWithString:
+	* initWithString:attributes:
+* NSData
+	* initWithLength:
+	* replaceBytesInRange:withBytes:length:
+* NSSet
+	* initWithObjects:
+* NSMutableSet
+	* initWithCapacity:
+	* addObject:
+	* removeObject:
+* NSIndexSet
+	* initWithIndex:
+* UIView
+	* setNeedsLayout
+	* layoutIfNeeded
+	* layoutSubviews
+	* setNeedsUpdateConstraints
+* NSTimer
+	* scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:
+* OtherCrash
+	* RunLoop防止Crash
